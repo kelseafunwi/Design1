@@ -1,0 +1,20 @@
+/*-------------------------------------------------------
+#        General 
+ ----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Proxima Nova !important;
+    color: #fff;
+}
+
+section {
+    width: calc(100% - 160px);
+    margin: 0 auto;
+    padding: 0px 32px;
+}
+
+header {
+    background: var(--gray-dark-default, #030712);
+}
