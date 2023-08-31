@@ -1,0 +1,59 @@
+.about-me {
+    padding: 96px 32px;
+}
+
+.about-me .about-profile {
+    position: relative;
+    width: 400px;
+    height: 480px;
+    flex-shrink: 0;
+    border: 8px solid var(--gray-dark-50, #111827);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.about-me h1 {
+    color: var(--gray-dark-900, #F9FAFB);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 120% */
+    letter-spacing: -0.6px;
+    margin-bottom: 24px;
+}
+
+.about-me p {
+    margin-bottom: 16px;
+    align-self: stretch;
+    color: var(--gray-dark-600, #D1D5DB);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    color: var(--gray-dark-600, #D1D5DB);
+    font-size: 16px;
+}
+
+.mb-16 {
+    margin-bottom: 16px !important;
+} 
+
+.about-me .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    color: var(--gray-dark-600, #D1D5DB);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.about-me .skill .point {
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+}

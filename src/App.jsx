@@ -3,6 +3,10 @@ import './App.css';
 
 import { NavBar } from './components/NavBar/NavBar';
 import { Banner } from './components/Banner/Banner';
+import { AboutMe } from './components/AboutMe/AboutMe';
+import { Skills } from './components/Skills/Skills';
+import { Experience } from './components/Experience/Experience';
+import { Work } from './components/Work/Work';
 
 
 function App() {
@@ -12,6 +16,22 @@ function App() {
                 <NavBar />
                 <Banner />
             </header>
+
+            <div style={{ backgroundColor: '#111827' }}>
+                <AboutMe />
+            </div>
+
+            <div style={{ backgroundColor: '#030712' }}>
+                <Skills />
+            </div>
+
+            <div style={{ backgroundColor: '#111827' }}>
+                <Experience />
+            </div>
+
+            <div style={{ backgroundColor: '#030712' }}>
+                <Work />
+            </div>
         </>
     )
 } 

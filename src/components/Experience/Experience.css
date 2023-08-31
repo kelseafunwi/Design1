@@ -1,0 +1,43 @@
+.experience {
+    padding: 96px 32px;
+}
+
+.experience .experience-container {
+    padding: 32px;
+    width: 896px;
+    padding: 32px;  
+    border-radius: 12px;
+    background: var(--gray-dark-100, #1F2937);
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.experience .experience-container h2 {
+    color: var(--gray-dark-900, #F9FAFB);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;   
+    line-height: 28px; /* 140% */
+}
+
+.experience .experience-container ul {
+    padding-left: 16px;
+}
+
+.experience .experience-container ul li {
+    color: #D1D5DB;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.experience .experience-container .date-text {
+    color: var(--gray-dark-700, #E5E7EB);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */  
+}

@@ -1,0 +1,36 @@
+.work {
+    padding: 96px 32px;
+}
+
+.work .leftElement {
+    border-radius: 12px 0px 0px 12px;
+    border-right: 1px solid var(--gray-dark-100, #1F2937);
+    background: var(--gray-dark-200, #374151);
+}
+
+.work .rightElement {
+    border-radius: 12px 0px 0px 12px;
+    border-right: 1px solid var(--gray-dark-100, #1F2937);
+    background: var(--gray-dark-200, #374151);
+}
+
+.work .work-content {
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.work h5 {
+    overflow: hidden;
+    color: var(--gray-dark-900, #F9FAFB);
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+}

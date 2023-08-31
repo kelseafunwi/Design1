@@ -16,7 +16,7 @@ export const NavBar = () => {
                         </Navbar.Toggle>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ms-auto navbar">
-                                <Nav.Link href="#about">About</Nav.Link>
+                                <Nav.Link href="#about-me">About</Nav.Link>
                                 <Nav.Link href="#work">Work</Nav.Link>
                                 <Nav.Link href="#testimonial">Testimonial</Nav.Link>
                                 <Nav.Link href="#contact">Contact</Nav.Link>
