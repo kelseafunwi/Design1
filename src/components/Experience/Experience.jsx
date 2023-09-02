@@ -5,7 +5,7 @@ import { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
 export const Experience = () => {
     return (
-        <section className="experience" >
+        <section className="experience" style={{ backgroundColor: '#111827' }} >
             <SectionHeader header='Experience' paragraph='Here is a quick summary of my most recent experiences:' />
 
             <Row className='mt-space-top d-flex justify-content-center'>

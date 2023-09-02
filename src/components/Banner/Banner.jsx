@@ -8,7 +8,7 @@ import figmaIcon from '../../assets/img/figma.svg';
 
 export const Banner = () => {
     return (
-        <section className="banner" id="banner">
+        <section className="banner" style={{backgroundColor: '#030712'}}  id="banner">
             <Row className='d-flex justify-content-center align-items-center'>
                 <Col md={10}>
                     <Row className='d-flex align-items-stretch justify-content-between'>

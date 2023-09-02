@@ -5,7 +5,7 @@ import testimonialUserIcon from '../../assets/img/testimonailUserIcon.svg';
 
 export const Testimonials = () => {
     return (
-        <section className="testimonials" id='testimonials'>
+        <section className="testimonials" style={{ backgroundColor: '#111827' }} id='testimonials'>
             <SectionHeader header="Testimonials" paragraph='Nice things people have said about me:' />
             <Row className='mt-space-top'>
                 <Col>

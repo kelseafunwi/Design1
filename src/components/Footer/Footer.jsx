@@ -4,7 +4,7 @@ import copyrightIcon from '../../assets/img/copyrighticon.svg';
 
 export const Footer = () => {
     return (
-        <footer className="footer" >
+        <footer className="footer"  style={{ backgroundColor: '#111827' }}>
             <Row >
                 <Col md={12}>
                     <div className="d-flex align-items-center">

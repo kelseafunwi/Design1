@@ -4,7 +4,6 @@ import navIcon from '../../assets/img/nightIcon.svg';
 import { useEffect } from "react";
 
 export const NavBar = () => {
-
     useEffect(() => {
         const navbarNav = document.getElementById('navbar');
         const navbarClicked = () => {
@@ -19,6 +18,11 @@ export const NavBar = () => {
 
         return () => navbarToggler.removeEventListener('click', navbarClicked);
      }, []);
+
+    const toggleMode = () => {
+        const body = document.body;
+        body.classList.toggle('isDarkMode');
+    }
 
     return (
         
@@ -37,7 +41,7 @@ export const NavBar = () => {
                             <Nav.Link href="#work">Work</Nav.Link>
                             <Nav.Link href="#testimonials">Testimonial</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
-                            <Nav.Link href="#night"><img src={navIcon} alt="Navigation night icon" /></Nav.Link>
+                            <Nav.Link onClick={() => toggleMode()}><img src={navIcon} alt="Navigation night icon" /></Nav.Link>
                             <Nav.Link href="download">
                                 <button className="btn btn-light p-2">Download CV</button>
                             </Nav.Link>

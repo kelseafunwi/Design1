@@ -103,7 +103,7 @@ export const Skills = () => {
     ]
 
     return (
-        <section className="skills" >
+        <section className="skills" style={{ backgroundColor: '#030712' }} >
             <SectionHeader header='Skills' paragraph='The skills, tools and technologies I am really good at:' />
             <Row className='mt-space-top d-flex justify-content-center align-items-center'>
                 <Col md={11}> 

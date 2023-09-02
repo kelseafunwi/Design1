@@ -19,41 +19,15 @@ function App() {
 
     return (
         <>
-            <div style={{backgroundColor: '#030712'}}>
-                <NavBar />
-            </div>
-            
-            <div style={{backgroundColor: '#030712'}}>
-                <Banner />
-            </div>
-
-            <div style={{ backgroundColor: '#111827' }}>
-                <AboutMe />
-            </div>
-
-            <div style={{ backgroundColor: '#030712' }}>
-                <Skills />
-            </div>
-
-            <div style={{ backgroundColor: '#111827' }}>
-                <Experience />
-            </div>
-
-            <div style={{ backgroundColor: '#030712' }}>
-                <Work />
-            </div>
-
-            <div style={{ backgroundColor: '#111827' }}>
-                <Testimonials />
-            </div>
-
-            <div style={{ backgroundColor: '#030712' }}>
-                <Contact />
-            </div>
-
-            <div style={{ backgroundColor: '#111827' }}>
-                <Footer />
-            </div>
+            <NavBar />
+            <Banner />
+            <AboutMe />
+            <Skills />
+            <Experience />
+            <Work />
+            <Testimonials />
+            <Contact />
+            <Footer />
         </>
     )
 } 
