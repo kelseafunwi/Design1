@@ -7,11 +7,13 @@ export const AboutMe = () => {
     return (
         <section className="about-me" >
             <SectionHeader header="About Me" />
-            <Row className='mt-space-top'>
-                <Col>
+            <Row className=' ps-md-5 mt-space-top'>
+                <Col md={11}>
                     <Row className='d-flex align-items-stretch justify-content-between'>
-                        <Col md={6}>
-                            <img className='about-profile' src={aboutProfile} />
+                        <Col md={6} className='d-flex pb-5 pb-md-0 align-items-center justify-content-center'>
+                            <div className="about-profile">
+                                <img className='img-fluid' src={aboutProfile} />
+                            </div>
                         </Col>
                         <Col md={6}>
                             <h1>Curious about me? Here you have it:</h1>

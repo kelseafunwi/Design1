@@ -10,14 +10,22 @@ import { Work } from './components/Work/Work';
 import { Testimonials } from './components/Testimonials/Testimonials';
 import { Contact } from './components/Contact/Contact';
 import { Footer } from './components/Footer/Footer';
+import { useEffect } from 'react';
 
 function App() {
+    useEffect(() => {
+        document.title = "Kelsea Portfolio";
+    }, []);
+
     return (
         <>
-            <header>
+            <div style={{backgroundColor: '#030712'}}>
                 <NavBar />
+            </div>
+            
+            <div style={{backgroundColor: '#030712'}}>
                 <Banner />
-            </header>
+            </div>
 
             <div style={{ backgroundColor: '#111827' }}>
                 <AboutMe />

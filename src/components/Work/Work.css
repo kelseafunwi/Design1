@@ -14,11 +14,11 @@
     background-color: #1f2937;
 }
 
-.work .work-content div {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-} 
+
+.work .work-img img {
+    height: auto;
+    width: 100%;
+}
 
 .work .work-content div p {
     color: #D1D5DB;

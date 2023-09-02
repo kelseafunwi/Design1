@@ -1,5 +1,7 @@
 .banner {
-    padding: 96px 32px;
+    /* padding: 96px 32px; */
+    padding-top: 130px;
+    padding-bottom: 96px;
 }
 
 .banner h1 {
@@ -8,24 +10,27 @@
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72px; /* 120% */
+    line-height: 72px;
     letter-spacing: -1.2px;
 }
 
 .banner .profileImg {
     position: relative;
-    width: 280px;
-    height: 320px;
-    flex-shrink: 0;
+    width: auto;
+    max-height: 320px;
+    z-index: 999;
 }
 
 .banner .profileImg::before {
     content: '';
     position: absolute;
-    left: 50%;
-    top: 50%;
-    border: 8px solid var(--gray-dark-default, #030712);
-    background: var(--gray-dark-200, #374151);
+    border: 8px solid  #030712;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 15%;
+    left: 15%;
+    background:  #374151 !important;
 }
 
 .banner .other-info p {

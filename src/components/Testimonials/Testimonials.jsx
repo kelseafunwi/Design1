@@ -5,12 +5,12 @@ import testimonialUserIcon from '../../assets/img/testimonailUserIcon.svg';
 
 export const Testimonials = () => {
     return (
-        <section className="testimonials" >
+        <section className="testimonials" id='testimonials'>
             <SectionHeader header="Testimonials" paragraph='Nice things people have said about me:' />
             <Row className='mt-space-top'>
                 <Col>
                     <Row className="d-flex flex-row align-items-stretch " style={{ gap: '48px'}}>
-                        <Col>
+                        <Col xs={12} md={5}>
                             <div className="testimonial-item">
                                 <div className="testimonial-img">
                                     <img src={testimonialUserIcon} alt="Testimonial user icon" />
@@ -26,7 +26,7 @@ export const Testimonials = () => {
                             </div>
                         </Col>
 
-                        <Col>
+                        <Col xs={12} md={5}>
                             <div className="testimonial-item">
                                 <div className="testimonial-img">
                                     <img src={testimonialUserIcon} alt="Testimonial user icon" />
@@ -42,7 +42,7 @@ export const Testimonials = () => {
                             </div>
                         </Col>
 
-                        <Col >
+                        <Col xs={12} md={6}>
                             <div className="testimonial-item">
                                 <div className="testimonial-img">
                                     <img src={testimonialUserIcon} alt="Testimonial user icon" />

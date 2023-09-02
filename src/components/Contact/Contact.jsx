@@ -12,7 +12,7 @@ import figmaIcon from '../../assets/img/figma.svg';
 
 export const Contact = () => {
     return (
-        <section className="contact" >
+        <section className="contact" id='contact'>
             <SectionHeader header="Get in touch" paragraph="What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect." />
             <Row className='mt-space-top'> 
                 <Col>

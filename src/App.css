@@ -9,19 +9,16 @@
     color: #fff;
 }
 
+section {
+    overflow: hidden;
+}
+
 .mt-space-top {
     margin-top: 48px;
 }
 
 .padding48 {
     padding: 48px;
-}
-
-
-section {
-    width: calc(100% - 160px);
-    margin: 0 auto;
-    padding: 0px 32px;
 }
 
 section .section-header , section .section-paragraph{
@@ -55,11 +52,6 @@ section .section-paragraph .paragraph {
     font-weight: 400;
     line-height: 28px; /* 140% */
 }
-
-header {
-    background: var(--gray-dark-default, #030712);
-}
-
 
 .social-icons .icon {
     display: flex;

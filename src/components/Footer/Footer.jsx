@@ -8,7 +8,7 @@ export const Footer = () => {
             <Row >
                 <Col md={12}>
                     <div className="d-flex align-items-center">
-                        <p><img src={copyrightIcon} alt="Copyright icon" />2023 | Designed and coded with ❤️️ by Sagar Shah</p>
+                        <p><img src={copyrightIcon} alt="Copyright icon" />2023 | Designed and coded with ❤️️ by Funwi Kelsea Ndohnwi</p>
                     </div>
                 </Col>
             </Row>

@@ -105,8 +105,8 @@ export const Skills = () => {
     return (
         <section className="skills" >
             <SectionHeader header='Skills' paragraph='The skills, tools and technologies I am really good at:' />
-            <Row className='mt-space-top'>
-                <Col>
+            <Row className='mt-space-top d-flex justify-content-center align-items-center'>
+                <Col md={11}> 
                     <Row className='d-flex gy-5  justify-content-between'>
                         {
                             skills.map((skill, index) => 

@@ -4,11 +4,32 @@
 
 .about-me .about-profile {
     position: relative;
-    width: 400px;
-    height: 480px;
-    flex-shrink: 0;
-    border: 8px solid var(--gray-dark-50, #111827);
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    z-index: 999;
+    height: fit-content;
+}
+
+.about-me .about-profile::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 110%;
+    z-index: -1;
+    top: 30px;
+    right: -15px !important;
+    background:  #374151 !important;
+}
+
+@media (max-width: 770px ) {
+    .about-me .about-profile::before {
+        right: 0px;
+        top: 20px;
+    }
+}
+
+.about-me .about-profile  img{
+    width: auto;
+    max-height: 500px;
+    border: 8px solid #111827;
 }
 
 .about-me h1 {
