@@ -1,15 +1,12 @@
 import { Col, Row } from 'react-bootstrap';
 import './AboutMe.css';
 import aboutProfile from '../../assets/img/aboutProfile.jpeg';
+import  { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
 export const AboutMe = () => {
     return (
         <section className="about-me" >
-            <div className="section-header">
-                <div id='about-me' className='section-title'>
-                    About Me
-                </div>
-            </div>
+            <SectionHeader header="About Me" />
             <Row className='mt-space-top'>
                 <Col>
                     <Row className='d-flex align-items-stretch justify-content-between'>

@@ -4,7 +4,7 @@ import navIcon from '../../assets/img/nightIcon.svg';
 
 export const NavBar = () => {
     return (
-        <section className="header"> 
+        <section> 
             <Row className="d-flex justify-content-center">
                 <Col>
                     <Navbar expand="lg">

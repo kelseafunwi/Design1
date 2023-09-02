@@ -60,10 +60,3 @@
     background: #10B981;
 }
 
-.banner .social-icons .icon {
-    display: flex;
-    padding: 6px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-}

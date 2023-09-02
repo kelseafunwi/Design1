@@ -1,0 +1,28 @@
+.contact {
+    padding: 96px 32px;
+}
+
+.contact .findmelinks {
+    /* width: 312px */
+    width: 400px;
+}
+
+.contact .findmelinks text {
+    color: #D1D5DB;
+    font-size: 16px;
+}
+
+.contact .info-text {
+    color:  #F9FAFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.72px;
+    padding: 0 20px;
+}
+
+.contact .info img {
+    padding: 8px;
+}

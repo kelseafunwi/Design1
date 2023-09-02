@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Proxima Nova !important;
+    font-family: Inter !important;
     color: #fff;
 }
 
@@ -44,7 +44,8 @@ section .section-header .section-title {
 
 
 section .section-paragraph .paragraph {
-    width: auto;
+    /* width: 576px; */
+    width: 700px;
     align-self: stretch;
     color: var(--gray-dark-600, #D1D5DB);
     text-align: center;
@@ -57,4 +58,13 @@ section .section-paragraph .paragraph {
 
 header {
     background: var(--gray-dark-default, #030712);
+}
+
+
+.social-icons .icon {
+    display: flex;
+    padding: 6px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }

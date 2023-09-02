@@ -16,137 +16,108 @@ import figmaIcon from '../../assets/img/figmaIcon.svg';
 import cypressIcon from '../../assets/img/cypressIcon.svg';
 import storybookIcon from '../../assets/img/storybookIcon.svg';
 import gitIcon from '../../assets/img/gitIcon.svg';
+import { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
 export const Skills = () => {
+    const skills = [
+        {
+            name: 'Javascript',
+            alt: 'Javascript icon',
+            imgSrc: javascriptIcon
+        },
+        {
+            name: 'Typescript',
+            alt: 'typescript icon',
+            imgSrc: typescriptIcon
+        },
+        {
+            name: 'React',
+            alt: 'react icon',
+            imgSrc: reactIcon
+        },
+        {
+            name: 'Next.js',
+            alt: 'nextjs icon',
+            imgSrc: nextjsIcon
+        },
+        {
+            name: 'Node.js',
+            alt: 'nodejs icon',
+            imgSrc: nodejsIcon
+        },
+        {
+            name: 'Express.js',
+            alt: 'express icon',
+            imgSrc: expressIcon
+        },
+        {
+            name: 'Nest.js',
+            alt: 'nestjs icon',
+            imgSrc: nestIcon
+        },
+        {
+            name: 'Socket.io',
+            alt: 'socket icon',
+            imgSrc: socketIcon
+        },
+        {
+            name: 'PostgreSQL',
+            alt: 'postgresql icon',
+            imgSrc: postgresqlIcon
+        },
+        {
+            name: 'MongoDB',
+            alt: 'Mongo icon',
+            imgSrc: mongoIcon
+        },
+        {
+            name: 'Sass/Scss',
+            alt: 'sass icon',
+            imgSrc: sassIcon
+        },
+        {
+            name: 'Tailwindcss',
+            alt: 'tailwind icon',
+            imgSrc: tailwindIcon
+        },
+        {
+            name: 'Figma',
+            alt: 'figma icon',
+            imgSrc: figmaIcon
+        },
+        {
+            name: 'Cypress',
+            alt: 'cypress icon',
+            imgSrc: cypressIcon
+        },
+        {
+            name: 'Storybook',
+            alt: 'storybook icon',
+            imgSrc: storybookIcon
+        },
+        {
+            name: 'Git',
+            alt: 'Git icon',
+            imgSrc: gitIcon
+        },
+    ]
+
     return (
         <section className="skills" >
-            <div className="section-header">
-                <div id='about-me' className='section-title'>
-                    Skills
-                </div>
-            </div>
-
-            <div className="section-paragraph">
-                <div className='paragraph'>
-                    The skills, tools and technologies I am really good at:
-                </div>
-            </div>
-
+            <SectionHeader header='Skills' paragraph='The skills, tools and technologies I am really good at:' />
             <Row className='mt-space-top'>
                 <Col>
                     <Row className='d-flex gy-5  justify-content-between'>
-                        <div className="tool">
-                            <img src={javascriptIcon} alt='javascript icon' />
-                            <div className="language">
-                                Javascript
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={typescriptIcon} alt='typescript icon' />
-                            <div className="language">
-                            Typescript
-                            </div>
-                        </div>
-                        
-                        <div className="tool">
-                            <img src={reactIcon} alt='react icon' />
-                            <div className="language">
-                                React
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={nextjsIcon} alt='nextjs icon' />
-                            <div className="language">
-                                Next.js
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={nodejsIcon} alt='nodejs icon' />
-                            <div className="language">
-                                Node.js
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={expressIcon} alt='express icon' />
-                            <div className="language">
-                                Express.js
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={nestIcon} alt='nestjs icon' />
-                            <div className="language">
-                                Nest.js
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={socketIcon} alt='socket icon' />
-                            <div className="language">
-                                Socket.io
-                            </div>
-                        </div>
-
-                        {/* Second row */}
-                        <div className="tool">
-                            <img src={postgresqlIcon} alt='postgresql icon' />
-                            <div className="language">
-                                PostgreSQL
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={mongoIcon} alt='Mongo icon' />
-                            <div className="language">
-                                MongoDB
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={sassIcon} alt='sass icon' />
-                            <div className="language">
-                                Sass/Scss
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={tailwindIcon} alt='tailwind icon' />
-                            <div className="language">
-                                Tailwindcss
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={figmaIcon} alt='figma icon' />
-                            <div className="language">
-                                Figma
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={cypressIcon} alt='cypress icon' />
-                            <div className="language">
-                                Cypress
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={storybookIcon} alt='express icon' />
-                            <div className="language">
-                                Storybook
-                            </div>
-                        </div>
-
-                        <div className="tool">
-                            <img src={gitIcon} alt='Git icon' />
-                            <div className="language">
-                                Git
-                            </div>
-                        </div>
+                        {
+                            skills.map((skill, index) => 
+                                <div key={index} className="tool">
+                                    <img src={skill.imgSrc} alt={skill.alt} />
+                                    <div className="language">
+                                        {skill.name}
+                                    </div>
+                                </div>
+                            )
+                        }
                     </Row>
                 </Col>
             </Row>

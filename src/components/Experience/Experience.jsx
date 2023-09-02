@@ -1,21 +1,12 @@
 import { Col, Row } from 'react-bootstrap';
 import './Experience.css';
 import upworkIcon from '../../assets/img/upworkIcon.svg';
+import { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
 export const Experience = () => {
     return (
         <section className="experience" >
-            <div className="section-header">
-                <div id='about-me' className='section-title'>
-                    Experience
-                </div>
-            </div>
-
-            <div className="section-paragraph">
-                <div className='paragraph'>
-                    Here is a quick summary of my most recent experiences:
-                </div>
-            </div>
+            <SectionHeader header='Experience' paragraph='Here is a quick summary of my most recent experiences:' />
 
             <Row className='mt-space-top d-flex justify-content-center'>
                 <Col className='d-flex justify-content-center' md={10}>
