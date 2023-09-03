@@ -2,13 +2,14 @@ import { Col, Row } from 'react-bootstrap';
 import './Work.css';
 import workImg1 from '../../assets/img/workImg1.png';
 import { SectionHeader } from '../Reusedcomponents/SectionHeader';
+// import workOpenIcon from '../../assets/img/workOpenIcon.svg';
 
 export const Work = () => {
 
     const toolsList = ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'Tailwindcss', 'Figma', 'Cypress', 'Storybook', 'Git'];
 
     return (
-        <section className="work" style={{ backgroundColor: '#030712' }} id='work' >
+        <section  className="work" style={{ backgroundColor: '#030712' }} id='work' >
             <SectionHeader paragraph='Some of the noteworthy projects I have built:' header='Work' />
             <Row className='mt-space-top d-flex justify-content-center'>
                 <Col md={11}> 

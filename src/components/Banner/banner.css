@@ -5,7 +5,7 @@
 }
 
 .banner h1 {
-    color: var(--gray-dark-900, #F9FAFB);
+    color:  #F9FAFB;
     font-family: Inter;
     font-size: 60px;
     font-style: normal;
@@ -65,3 +65,21 @@
     background: #10B981;
 }
 
+
+/* Light mode configuration */
+.isLightMode .banner {
+    background-color: #fff !important;
+    color: #4B5563 !important;
+}
+
+.isLightMode .banner h1 {
+    color: #111827;
+}
+
+.isLightMode .banner p, .isLightMode .banner span {
+    color: #111827;
+}
+
+.isLightMode .description-content img {
+    filter: brightness(40%) !important;
+}

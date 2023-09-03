@@ -34,7 +34,7 @@ section .section-header .section-title {
     justify-content: center;
     align-items: center;
     border-radius: 12px;
-    background: var(--gray-dark-200, #374151);
+    background: #374151;
     width: -moz-fit-content;
     width: fit-content;
 }
@@ -59,4 +59,14 @@ section .section-paragraph .paragraph {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+}
+
+/* Light mode configuration */
+.isLightMode section .section-header .section-title {
+    background-color: #E5E7EB;
+    color: #4B5563;
+}
+
+.isLightMode section .section-paragraph .paragraph {
+    color: #4B5563;
 }

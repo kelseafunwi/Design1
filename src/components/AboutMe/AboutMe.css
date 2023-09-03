@@ -33,7 +33,7 @@
 }
 
 .about-me h1 {
-    color: var(--gray-dark-900, #F9FAFB);
+    color:  #F9FAFB;
     font-family: Inter;
     font-size: 30px;
     font-style: normal;
@@ -77,4 +77,22 @@
     background: #fff;
     margin-right: 10px;
     border-radius: 50%;
+}
+
+/* Light mode configuration */
+
+.isLightMode .about-me {
+    background-color: #fff !important;
+}
+
+.isLightMode .about-me h1 {
+    color: #111827;
+}
+
+.isLightMode .about-me p {
+    color: #4B5563;
+}
+
+.isLightMode .about-me .skill {
+    color: #4B5563;
 }

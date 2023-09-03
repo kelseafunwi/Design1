@@ -15,3 +15,16 @@
     padding-right: 8px !important;
     vertical-align: middle;
 }
+
+/* Dark mode configuration */
+.isLightMode .footer {
+    background-color: #fff !important;
+}
+
+.isLightMode .footer p {
+    color: #4B5563;
+}
+
+.isLightMode .footer img {
+    filter: brightness(70%);
+}

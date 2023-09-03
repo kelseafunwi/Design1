@@ -1,9 +1,12 @@
 import {Col, Nav, Navbar, Row } from "react-bootstrap";
 import './navbar.css';
-import navIcon from '../../assets/img/nightIcon.svg';
+import nightIcon from '../../assets/img/nightIcon.svg';
+import lightIcon from '../../assets/img/lightIcon.svg';
 import { useEffect } from "react";
+import { useRef } from "react";
 
 export const NavBar = () => {
+    const modeToggleButton = useRef(null);
     useEffect(() => {
         const navbarNav = document.getElementById('navbar');
         const navbarClicked = () => {
@@ -16,13 +19,25 @@ export const NavBar = () => {
         const navbarToggler = document.getElementById('navbar-toggler');
         navbarToggler.addEventListener('click', navbarClicked);
 
-        return () => navbarToggler.removeEventListener('click', navbarClicked);
+        const body = document.body;
+        const lightButton = document.getElementById('lightButton');
+        const darkButton = document.getElementById('darkButton');
+        const toggleMode = () => {
+            console.log('toggling the mode ');
+            body.classList.toggle('isLightMode');
+            lightButton.classList.toggle('d-none');
+            darkButton.classList.toggle('d-none');
+        }
+
+        modeToggleButton.current.addEventListener('click', toggleMode);
+
+        return () => {
+            navbarToggler.removeEventListener('click', navbarClicked);
+            modeToggleButton.current.removeEventListener('click', toggleMode);
+        };
      }, []);
 
-    const toggleMode = () => {
-        const body = document.body;
-        body.classList.toggle('isDarkMode');
-    }
+    
 
     return (
         
@@ -41,7 +56,10 @@ export const NavBar = () => {
                             <Nav.Link href="#work">Work</Nav.Link>
                             <Nav.Link href="#testimonials">Testimonial</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
-                            <Nav.Link onClick={() => toggleMode()}><img src={navIcon} alt="Navigation night icon" /></Nav.Link>
+                            <Nav.Link ref={modeToggleButton}>
+                                <img src={nightIcon}  id='darkButton' alt="Navigation night icon" />
+                                <img src={lightIcon} id='lightButton' className="d-none" alt="Navigation light icon" />
+                            </Nav.Link>
                             <Nav.Link href="download">
                                 <button className="btn btn-light p-2">Download CV</button>
                             </Nav.Link>

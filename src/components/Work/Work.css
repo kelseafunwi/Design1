@@ -29,8 +29,6 @@
 
 .work .work-content .tools {
     display: flex;
-    /* align-items: center; */
-    /* align-content: center; */
     gap: 8px;
     align-self: stretch;
     flex-wrap: wrap;
@@ -50,10 +48,7 @@
 
 .work .left-item {
     border-radius: 12px 0px 0px 12px;
-    border-right: 1px solid var(--gray-dark-100, #1F2937);
 }
-
-
 
 .work .right-item {
     border-radius: 0px 12px 12px 0px;
@@ -64,4 +59,24 @@
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
+}
+
+/* Light Mode configuration */
+.isLightMode .work,
+.isLightMode .work .work-img, 
+.isLightMode .work .work-content{
+    background: #fff !important;
+}
+
+.isLightMode .work h5 {
+    color: #111827;
+}
+
+.isLightMode .work .work-content p {
+    color: #4B5563;
+}
+
+.isLightMode .work .work-content .tool {
+    background-color: #E5E7EB;
+    color: #4B5563;
 }

@@ -32,3 +32,24 @@
 .contact .info img {
     padding: 8px;
 }
+
+/* Light mode */
+.isLightMode .contact {
+    background-color: #fff !important;
+}
+
+.isLightMode .contact .info-text {
+    color: #111827;
+}
+
+.isLightMode .contact .info img {
+    filter: brightness(50%);
+}
+
+.isLightMode .contact .findmelinks .text {
+    color: #4B5563;
+}
+
+.isLightMode .contact img {
+    filter: brightness(40%) !important;
+}

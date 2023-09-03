@@ -15,6 +15,7 @@ import { useEffect } from 'react';
 function App() {
     useEffect(() => {
         document.title = "Kelsea Portfolio";
+        document.body.classList.toggle('isLightMode');
     }, []);
 
     return (

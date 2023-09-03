@@ -26,3 +26,13 @@
     font-weight: 400;
     line-height: 28px; /* 155.556% */
 }
+
+
+/* Light Mode configuration */
+.isLightMode .skills {
+    background-color: white !important;
+}
+
+.isLightMode .skills .tool .language {
+    color: #4B5563;
+}

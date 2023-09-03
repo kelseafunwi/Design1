@@ -7,7 +7,7 @@
     width: 896px;
     padding: 32px;  
     border-radius: 12px;
-    background: var(--gray-dark-100, #1F2937);
+    background:  #1F2937;
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -40,4 +40,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 150% */  
+}
+
+/* Light mode config */
+.isLightMode .experience, .isLightMode .experience-container {
+    background-color: #fff !important;
+}
+
+.isLightMode .experience-container h2,
+.isLightMode .experience-container li,
+.isLightMode .experience-container .date-text {
+    color: #4B5563 !important;
 }

@@ -50,3 +50,18 @@
     border-radius: 64px;
     background: #9CA3AF;
 }
+
+/* Testimonial  */
+.isLightMode .testimonials ,
+.isLightMode .testimonial-item {
+    background: #fff !important;
+}
+
+.isLightMode .testimonial-item p,
+.isLightMode .testimonial-item h5 {
+    color: #4B5563;
+}
+
+.isLightMode .testimonials .testimonial-item h3 {
+    color: #111827;
+}
