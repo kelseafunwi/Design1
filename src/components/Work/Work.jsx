@@ -37,58 +37,6 @@ export const Work = () => {
                                 </Col>
                             </Row>
                         </Col>
-
-                        <Col md={12} className='d-flex mt-5'>
-                            <Row>
-                                <Col className='work-content left-item' md={6}>
-                                    <div>
-                                        <h5>Fiskil</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-
-                                    <div className='tools'>
-                                            {toolsList.map((tool, index) => (
-                                                    <div key={index} className="tool">
-                                                        {tool}
-                                                    </div> )
-                                                )
-                                            }
-                                    </div>
-                                    </div>
-                                </Col>
-
-                                <Col className="work-img right-item" md={6}>
-                                    <div>
-                                        <img className='img-fluid' src={workImg1} alt='Work Image 1' />
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
-                        
-                        <Col md={12} className='d-flex mt-5'>
-                            <Row>
-                                <Col className="work-img left-item" md={6}>
-                                    <div>
-                                        <img className='img-fluid' src={workImg1} alt='Work Image 1' />
-                                    </div>
-                                </Col>
-
-                                <Col className='work-content right-item' md={6}>
-                                    <div>
-                                        <h5>Fiskil</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-
-                                    <div className='tools'>
-                                            {toolsList.map((tool, index) => (
-                                                    <div key={index} className="tool">
-                                                        {tool}
-                                                    </div> 
-                                                ))
-                                            }
-                                    </div>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
                     </Row>
                 </Col>
             </Row>

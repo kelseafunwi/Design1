@@ -5,16 +5,9 @@ import typescriptIcon from '../../assets/img/typescriptIcon.svg';
 import reactIcon from '../../assets/img/reactIcon.svg';
 import nextjsIcon from '../../assets/img/nextjsIcon.svg';
 import nodejsIcon from '../../assets/img/nodejsIcon.svg';
-import expressIcon from '../../assets/img/expressIcon.svg';
-import nestIcon from '../../assets/img/nestIcon.svg';
-import socketIcon from '../../assets/img/socketIcon.svg';
-import postgresqlIcon from '../../assets/img/postgresqlIcon.svg';
-import mongoIcon from '../../assets/img/mongoIcon.svg';
-import sassIcon from '../../assets/img/sassIcon.svg';
+
 import tailwindIcon from '../../assets/img/tailwindIcon.svg';
-import figmaIcon from '../../assets/img/figmaIcon.svg';
-import cypressIcon from '../../assets/img/cypressIcon.svg';
-import storybookIcon from '../../assets/img/storybookIcon.svg';
+
 import gitIcon from '../../assets/img/gitIcon.svg';
 import { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
@@ -46,54 +39,9 @@ export const Skills = () => {
             imgSrc: nodejsIcon
         },
         {
-            name: 'Express.js',
-            alt: 'express icon',
-            imgSrc: expressIcon
-        },
-        {
-            name: 'Nest.js',
-            alt: 'nestjs icon',
-            imgSrc: nestIcon
-        },
-        {
-            name: 'Socket.io',
-            alt: 'socket icon',
-            imgSrc: socketIcon
-        },
-        {
-            name: 'PostgreSQL',
-            alt: 'postgresql icon',
-            imgSrc: postgresqlIcon
-        },
-        {
-            name: 'MongoDB',
-            alt: 'Mongo icon',
-            imgSrc: mongoIcon
-        },
-        {
-            name: 'Sass/Scss',
-            alt: 'sass icon',
-            imgSrc: sassIcon
-        },
-        {
             name: 'Tailwindcss',
             alt: 'tailwind icon',
             imgSrc: tailwindIcon
-        },
-        {
-            name: 'Figma',
-            alt: 'figma icon',
-            imgSrc: figmaIcon
-        },
-        {
-            name: 'Cypress',
-            alt: 'cypress icon',
-            imgSrc: cypressIcon
-        },
-        {
-            name: 'Storybook',
-            alt: 'storybook icon',
-            imgSrc: storybookIcon
         },
         {
             name: 'Git',

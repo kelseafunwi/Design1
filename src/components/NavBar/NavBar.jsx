@@ -44,7 +44,7 @@ export const NavBar = () => {
        <Row className="d-flex  navbar-container fixed-top justify-content-center">
              <Col sm={10}>
                 <Navbar id='navbar' aria-expanded='false' expand="lg">
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="#home" className="ps-4">
                         <div className="logo" data-content="<SS />" />
                     </Navbar.Brand>
                     <Navbar.Toggle id='navbar-toggler' aria-controls="basic-navbar-nav">

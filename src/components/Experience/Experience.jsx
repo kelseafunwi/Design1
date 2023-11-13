@@ -30,47 +30,7 @@ export const Experience = () => {
                         </Row>
                     </div>
                 </Col>
-
-                <Col className='d-flex mt-space-top justify-content-center' md={10}>
-                    <div className="experience-container d-block">
-                        <Row className='d-flex justify-content-between'> 
-                            <Col md={3}>
-                                <img src={upworkIcon} />
-                            </Col>
-                            <Col className='text-start' md={5}>
-                                <h2>Team Lead</h2> 
-                                <ul>
-                                    <li>Sed quis justo ac magna.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                    <li>Sed quis justo ac magna.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                </ul>
-                            </Col>
-                            <Col md={3}>
-                                <h5 className='date-text'>Jul 2017 - Oct 2021</h5>
-                            </Col>
-                        </Row>
-                    </div>
-                </Col>
-
-                <Col className='d-flex mt-space-top justify-content-center' md={10}>
-                    <div className="experience-container d-block">
-                        <Row className='d-flex justify-content-between'> 
-                            <Col md={3}>
-                                <img src={upworkIcon} />
-                            </Col>
-                            <Col className='text-start' md={5}>
-                                <h2>Full Stack Developer</h2> 
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                </ul>
-                            </Col>
-                            <Col md={3}>
-                                <h5 className='date-text'>Jul 2017 - Oct 2021</h5>
-                            </Col>
-                        </Row>
-                    </div>
-                </Col>
+                
             </Row>
         </section>
     )

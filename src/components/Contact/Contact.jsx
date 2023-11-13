@@ -1,14 +1,12 @@
-import { Col, Row } from 'react-bootstrap';
-import './Contact.css';
-import  { SectionHeader } from '../Reusedcomponents/SectionHeader';
-import contactMail from '../../assets/img/contactMail.svg';
-import contactCopy from '../../assets/img/contactCopy.svg';
-import contactPhone from '../../assets/img/contactPhone.svg';
-import githubIcon from '../../assets/img/github.svg';
-import twitterIcon from '../../assets/img/twitter.svg';
-import figmaIcon from '../../assets/img/figma.svg';
+import { Col, Row } from 'react-bootstrap'
+import './Contact.css'
+import  { SectionHeader } from '../Reusedcomponents/SectionHeader'
+import contactMail from '../../assets/img/contactMail.svg'
+import contactCopy from '../../assets/img/contactCopy.svg'
+import contactPhone from '../../assets/img/contactPhone.svg'
+import githubIcon from '../../assets/img/github.svg'
 
-
+import twitterIcon from '../../assets/img/twitter.svg'
 
 export const Contact = () => {
     return (
@@ -41,9 +39,6 @@ export const Contact = () => {
                                         </div>
                                         <div className='icon'>
                                             <a href=""><img src={twitterIcon} alt="Twitter Icon" /></a>
-                                        </div>
-                                        <div className='icon'>
-                                            <a href=""><img src={figmaIcon} alt='Figma Icon' /></a>
                                         </div>
                                     </div>
                                 </div>
