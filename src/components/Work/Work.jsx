@@ -6,7 +6,7 @@ import { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
 export const Work = () => {
 
-    const toolsList = ['React', 'Next.js', 'Typescript', 'Nest.js', 'PostgreSQL', 'Tailwindcss', 'Figma', 'Cypress', 'Storybook', 'Git'];
+    const toolsList = ['React', 'Next.js', 'Typescript', 'Nest.js', 'Tailwindcss', 'Figma', 'Git'];
 
     return (
         <section  className="work" style={{ backgroundColor: '#030712' }} id='work' >

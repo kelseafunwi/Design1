@@ -1,7 +1,13 @@
 .banner {
     /* padding: 96px 32px; */
     padding-top: 120px;
-    padding-bottom: 76px;
+    padding-bottom: 70px;
+}
+
+@media (max-width: 734px) {
+    .banner {
+        padding-bottom: 15px;
+    }
 }
 
 .banner h1 {
@@ -10,7 +16,6 @@
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72px;
     letter-spacing: -1.2px;
 }
 

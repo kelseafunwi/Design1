@@ -14,7 +14,7 @@ export const Contact = () => {
             <SectionHeader header="Get in touch" paragraph="What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect." />
             <Row className='mt-space-top'> 
                 <Col>
-                    <Row className='d-flex flex-column' style={{gap: '46px'}}>
+                    <Row className='d-flex flex-column' style={{gap: '10px'}}>
                         <Col md={12}>
                             <div className="d-flex info justify-content-center">
                                 <img src={contactMail} alt='Contact Mail Icon' />
