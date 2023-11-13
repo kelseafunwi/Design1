@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-bootstrap';
 import './banner.css';
-import profileImg from '../../assets/img/profilePic.png';
+import profileImg from '../../assets/img/profilePic.jpeg';
 import locationImg from '../../assets/img/locationImg.png';
 import githubIcon from '../../assets/img/github.svg';
 import twitterIcon from '../../assets/img/twitter.svg';

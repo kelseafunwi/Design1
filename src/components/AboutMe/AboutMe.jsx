@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-bootstrap';
 import './AboutMe.css';
-import aboutProfile from '../../assets/img/aboutProfile.jpeg';
+import aboutProfile from '../../assets/img/aboutProfile.jpg';
 import  { SectionHeader } from '../Reusedcomponents/SectionHeader';
 
 export const AboutMe = () => {
