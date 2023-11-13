@@ -29,10 +29,10 @@ export const Contact = () => {
                         </Col>
                         <Col className='d-flex justify-content-center' md={12}>
                             <div className="findmelinks">
-                                <div className="d-block text">
+                                <div className="block text-center">
                                     You may also find me on these platforms!
                                 </div>
-                                <div className="social-icons mt-space-top">
+                                <div className="social-icons">
                                     <div className="d-flex justify-content-center">
                                         <div className='icon'>
                                            <a href=""><img src={githubIcon} alt='Github Icon' /></a>
