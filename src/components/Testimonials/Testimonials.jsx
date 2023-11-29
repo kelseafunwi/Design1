@@ -9,7 +9,7 @@ export const Testimonials = () => {
             <SectionHeader header="Testimonials" paragraph='Nice things people have said about me:' />
             <Row className='mt-space-top'>
                 <Col>
-                    <Row className="d-flex flex-row align-items-stretch " style={{ gap: '10px'}}>
+                    <Row className="d-flex flex-row align-items-stretch justify-content-center" style={{ gap: '10px'}}>
                         <Col xs={12} md={5}>
                             <div className="testimonial-item">
                                 <div className="testimonial-img">

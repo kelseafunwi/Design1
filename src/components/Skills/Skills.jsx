@@ -4,7 +4,7 @@ import javascriptIcon from '../../assets/img/javascriptIcon.svg';
 import typescriptIcon from '../../assets/img/typescriptIcon.svg';
 import reactIcon from '../../assets/img/reactIcon.svg';
 import nextjsIcon from '../../assets/img/nextjsIcon.svg';
-import nodejsIcon from '../../assets/img/nodejsIcon.svg';
+import laravelLogo from '../../assets/img/laravelLogo.png';
 
 import tailwindIcon from '../../assets/img/tailwindIcon.svg';
 
@@ -34,9 +34,9 @@ export const Skills = () => {
             imgSrc: nextjsIcon
         },
         {
-            name: 'Node.js',
-            alt: 'nodejs icon',
-            imgSrc: nodejsIcon
+            name: 'Laravel',
+            alt: 'Laravel icon',
+            imgSrc: laravelLogo
         },
         {
             name: 'Tailwindcss',

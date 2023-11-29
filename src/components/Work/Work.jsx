@@ -9,7 +9,7 @@ export const Work = () => {
     const toolsList = ['React', 'Next.js', 'Typescript', 'Nest.js', 'Tailwindcss', 'Figma', 'Git'];
 
     return (
-        <section  className="work" style={{ backgroundColor: '#030712' }} id='work' >
+        <section  className="work d-none" style={{ backgroundColor: '#030712' }} id='work' >
             <SectionHeader paragraph='Some of the noteworthy projects I have built:' header='Work' />
             <Row className='mt-space-top d-flex justify-content-center'>
                 <Col md={11}> 
